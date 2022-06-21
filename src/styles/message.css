@@ -1,0 +1,232 @@
+.directMessage {
+    padding: 0.75rem 2rem 2rem 2rem;
+    margin: 5rem 25% 0 25%;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.message__input {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.select--friends {
+    width: initial;
+    margin: 0.5rem;
+    font-size: large;
+}
+
+.message__section {
+    font-size: large;
+    margin: 0.75rem;
+    width: max-content;
+}
+
+#directMessage__close {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.35rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 0;
+}
+
+.messages {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message {
+    border: 1px dotted lightblue;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    margin: 0 25%;
+    flex-basis: 50%;
+}
+
+.message__author {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#whole__form {
+    border: 4px yellow solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(5, 46, 91, 0.153);
+    background-color:rgba(0, 74, 233, 0.783);    
+    color: white;
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.495));
+}
+
+#msgFormDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px orange solid; */
+}
+
+#emptyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px green solid; */
+}
+
+#all_msgs {
+    margin-left: 5px;
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 3px 11px;
+    /* padding-left: 6px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(8, 83, 164);
+    border-radius: 50%;
+    background-color:rgba(0, 74, 233, 0.783);    
+    color: white;
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.18));
+}
+
+#create_msg{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(8, 83, 164);
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.18));
+}
+
+.msgContainer {
+    border: 2px solid rgba(96, 17, 30, 0.166);
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 450px;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.18));
+}
+
+.msgBody {
+    /* border: 2px solid rgba(63, 62, 58, 0.098); */
+    margin: 10px 20px;
+    padding: 0px 15px;
+}
+
+#h2__directMsg{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#h2__gifPost{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+#directMsgDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#recipients__id{
+    padding-bottom: 5px;
+    height: 40px;
+}
+
+#message__div{
+    margin-bottom: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#recipientDropDown{
+    height: 20px;
+}
+
+#message__btns{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#saveBtn{
+    margin-right: 10px;
+    padding: 2px 6px;
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.18));
+}
+
+#cancelBtn{
+    padding: 2px 6px;
+    filter: drop-shadow(2px 2px 10px rgba(53, 45, 38, 0.18));
+}
+
+.input{
+    margin-left: 8px;
+    width: 200px;
+}
+
+#directMsgView{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#welcome__id{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 25px;  
+    margin-bottom: -40px; 
+    color: rgb(8, 83, 164);
+    /* border: 2px yellow solid; */
+}
+
+#returnDiv{
+    margin: 5% 20%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid orange; */
+}
+
+#returnHomeBtn{
+    text-decoration: none;
+    color: white;
+    margin-left: 2px;
+    font-size: 18px;
+    padding: 3px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(7, 11, 29);
+    border-radius: 5%;
+    background-color:rgba(0, 74, 233, 0.783);
+    filter: drop-shadow(2px 2px 8px rgba(53, 45, 38, 0.18));
+}
+
+#recipientFoundParagraph{
+    color: rgba(128, 128, 128, 0.639);
+    font-size: 15px;
+    margin-top: 25px;
+}

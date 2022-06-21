@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ray Medrano",
+      "email": "ray@medrano.com",
+      "password": "ray"
+    },
+    {
+      "id": 2,
+      "name": "Meg Ducharme",
+      "email": "meg@ducharme.com",
+      "password": "meg"
+    },
+    {
+      "id": 3,
+      "name": "Mark Ellis",
+      "email": "mark@ellis.com",
+      "password": "mark"
+    },
+    {
+      "id": 4,
+      "name": "Daniella Agnoletti",
+      "email": "daniella@agnoletti.com",
+      "password": "daniella"
+    },
+    {
+      "id": 5,
+      "name": "Kimmy Bird",
+      "email": "kimmy@bird.com",
+      "password": "kimmy"
+    },
+    {
+      "id": 6,
+      "name": "Emily Lemmon",
+      "email": "emily@lemmon.com",
+      "password": "emily"
+    },
+    {
+      "id": 7,
+      "name": "Ace Deuce Bunz",
+      "email": "bobbleheadz@shemail.com",
+      "password": "ace"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "senderId": 2,
+      "title": "Dinner",
+      "imageURL": "https://media.giphy.com/media/5fBH6z98xmOVPMWzFPW/giphy.gif",
+      "description": "Messenger bag hella gochujang adaptogen, aesthetic sartorial before they sold out franzen sustainable thundercats.",
+      "timestamp": "Mon Apr 12, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 2,
+      "senderId": 4,
+      "title": "Graduation!",
+      "imageURL": "https://media.giphy.com/media/lSPlEENLTonvclZP44/giphy.gif",
+      "description": "Pop-up biodiesel pickled crucifix. Tousled succulents banjo bicycle rights.",
+      "timestamp": "Sun Jan 06, 2020",
+      "favorite": "false"
+    },
+    {
+      "id": 3,
+      "title": "Learning JavaScript",
+      "imageURL": "https://media.giphy.com/media/S9dN7OWFj8GoRhTIuL/giphy-downsized.gif",
+      "description": "Ethical chillwave jianbing ramps plaid subway tile.",
+      "senderId": 1,
+      "timestamp": "Sat Dec 31, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 4,
+      "title": "I am",
+      "imageURL": "https://media.giphy.com/media/l2YWnHB3QVrgebfsQ/giphy.gif",
+      "description": "",
+      "senderId": 1,
+      "timestamp": "Tue Nov 26, 2021",
+      "favorite": "false"
+    },
+    {
+      "id": 5,
+      "title": "Who Dis?",
+      "imageURL": "https://media.giphy.com/media/9S1yaD4TfqLueDAtRL/giphy.gif",
+      "description": "",
+      "senderId": 3,
+      "timestamp": "Sun Apr 02, 2020",
+      "favorite": "false"
+    },
+    {
+      "id": 6,
+      "title": "72 Hours",
+      "imageURL": "https://media2.giphy.com/media/RwI0oeZQAYDy8/giphy.gif?cid=790b761115d5d17c1acdcd50a7cdcf7bfbe96ea1fff45e9f&rid=giphy.gif&ct=g",
+      "description": "",
+      "senderId": 3,
+      "timestamp": "Tue Feb 08, 2020",
+      "favorite": "false"
+    },
+    {
+      "id": 7,
+      "title": "Aye",
+      "imageURL": "https://media2.giphy.com/media/f4aSP1cZWR0lIKRXIT/200.gif",
+      "description": "",
+      "senderId": 5,
+      "timestamp": "Thu Sep 19, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 8,
+      "title": "New Student",
+      "imageURL": "https://media.giphy.com/media/dyASKEfeQ7F3HCyC5g/giphy.gif",
+      "description": "So handsome. ",
+      "senderId": 1,
+      "timestamp": "Wed Mar 08, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 9,
+      "title": "hi",
+      "imageURL": "https://media.giphy.com/media/WpIPS0DWNpMm4kfMVr/giphy.gif",
+      "description": "So excited to be here!",
+      "senderId": 6,
+      "timestamp": "Tue Nov 22, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 10,
+      "title": "Looking at y'alls assessments like...",
+      "imageURL": "https://media.giphy.com/media/XmhUvi3OXrhPa/giphy.gif",
+      "description": "Huh? Whah? Glorious!",
+      "senderId": 4,
+      "timestamp": "Mon Jun 03, 2020",
+      "favorite": "false"
+    },
+    {
+      "id": 11,
+      "title": "Cohort be like",
+      "imageURL": "https://media.giphy.com/media/FdmPbRxNRGNvq/giphy.gif",
+      "description": "Lynn sends out the google form review at the end of class...",
+      "senderId": 4,
+      "timestamp": "Fri Jul 02, 2019",
+      "favorite": "false"
+    },
+    {
+      "id": 12,
+      "title": "Simone",
+      "imageURL": "https://media1.giphy.com/media/SYuHhUUM98XDOCAE6Q/giphy.gif?cid=790b76111a1d2417aba43cdea7f3142c234c1c6b33e56ceb&rid=giphy.gif&ct=g",
+      "description": "You go girl!!!",
+      "senderId": 5,
+      "timestamp": "Tue Jul 20, 2021",
+      "favorite": "false"
+    },
+    {
+      "title": "Working hard like...😐",
+      "imageURL": "https://media.giphy.com/media/1eEH7dQ2xwN95RwGQf/giphy.gif",
+      "description": "All work no play makes Ace go something, something....",
+      "senderId": 7,
+      "timestamp": "Sun Jul 25, 2021",
+      "id": 13
+    },
+    {
+      "title": "Adding CSS Giffygram like...",
+      "imageURL": "https://media.giphy.com/media/3oKIPCSX4UHmuS41TG/giphy.gif",
+      "description": "Nobody said it was a pretty task 😂",
+      "senderId": 7,
+      "timestamp": "Sun Jul 25, 2021",
+      "id": 14
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "postId": 2
+    },
+    {
+      "userId": 3,
+      "postId": 3,
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "postId": 4,
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "postId": 4,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "postId": 4,
+      "id": 10
+    }
+  ],
+  "messages": [
+    {
+      "senderId": 1,
+      "recipientId": 5,
+      "text": "TEST MSG",
+      "date": "Tue Jul 20, 2021",
+      "read": false,
+      "id": 2
+    },
+    {
+      "senderId": 1,
+      "recipientId": 3,
+      "text": "Hey Mark! This is a test! ",
+      "date": "Tue Jul 01, 2021",
+      "read": false,
+      "id": 3
+    },
+    {
+      "senderId": 1,
+      "recipientId": 6,
+      "text": "Hey Emily! This is a test!",
+      "date": "Tue Jul 09, 2021",
+      "read": false,
+      "id": 4
+    },
+    {
+      "senderId": 3,
+      "recipientId": 1,
+      "text": "Hey Ray! This is a test!",
+      "date": "Tue Jul 09, 2021",
+      "read": false,
+      "id": 4
+    },
+    {
+      "senderId": 6,
+      "recipientId": 1,
+      "text": "Hey Ray, How's everything in the app?",
+      "date": "Tue May 27, 2020",
+      "read": false,
+      "id": 4
+    },
+    {
+      "senderId": 1,
+      "recipientId": 4,
+      "text": "DATETEST",
+      "date": "Tue Jul 20, 2021",
+      "read": false,
+      "id": 5
+    },
+    {
+      "senderId": 3,
+      "recipientId": 1,
+      "text": "Hey Ray! This is a test to see if the msgCount() is working properly!",
+      "date": "Sat Jul 24, 2021",
+      "read": false,
+      "id": 6
+    },
+    {
+      "senderId": 4,
+      "recipientId": 2,
+      "text": "Hey Meg! Quick message to check the feature!",
+      "date": "Sat Jul 24, 2021",
+      "id": 7
+    },
+    {
+      "senderId": 2,
+      "recipientId": 2,
+      "text": "Just checking to see if you get this! ",
+      "date": "Sat Jul 24, 2021",
+      "id": 8
+    },
+    {
+      "senderId": 1,
+      "recipientId": 2,
+      "text": "Hey Meg, hope all is well!",
+      "date": "Sun Jul 25, 2021",
+      "id": 9
+    },
+    {
+      "senderId": 3,
+      "recipientId": 3,
+      "text": "Another test Mark! Enjoy!",
+      "date": "Sun Jul 25, 2021",
+      "id": 10
+    },
+    {
+      "senderId": 4,
+      "recipientId": 4,
+      "text": "Can you see this message?",
+      "date": "Sun Jul 25, 2021",
+      "id": 11
+    },
+    {
+      "senderId": 5,
+      "recipientId": 5,
+      "text": "Received?",
+      "date": "Sun Jul 25, 2021",
+      "id": 12
+    },
+    {
+      "senderId": 6,
+      "recipientId": 6,
+      "text": "So happy it's working!",
+      "date": "Sun Jul 25, 2021",
+      "id": 13
+    },
+    {
+      "senderId": 3,
+      "recipientId": 7,
+      "text": "Welcome to Giffygram! Enjoy your time here!",
+      "date": "Sun Jul 25, 2021",
+      "id": 14
+    },
+    {
+      "senderId": 4,
+      "recipientId": 7,
+      "text": "Hey Ace, I hope you enjoy your time in the Giffyverse!",
+      "date": "Sun Jul 25, 2021",
+      "id": 15
+    },
+    {
+      "senderId": 7,
+      "recipientId": 7,
+      "text": "wombafat! 🦡",
+      "date": "Sun Jul 25, 2021",
+      "id": 16
+    }
+  ],
+  "follows": [
+    {
+      "id": 1,
+      "senderId": 1,
+      "followingId": 2
+    },
+    {
+      "id": 2,
+      "senderId": 3,
+      "followingId": 2
+    },
+    {
+      "id": 3,
+      "senderId": 2,
+      "followingId": 1
+    }
+  ]
+}
